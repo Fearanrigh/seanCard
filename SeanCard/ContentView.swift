@@ -59,6 +59,7 @@ struct InfoView: View {
                 Image(systemName: imageName)
                     .foregroundColor(imageColour)
                 Text(text)
+                .foregroundColor(Color("Info Colour"))
             })
             .padding(.all)
     }
